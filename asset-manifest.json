@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/COPACO-Presupuesto/static/css/main.cad3d81c.css",
+    "main.js": "/COPACO-Presupuesto/static/js/main.6ff7d220.js",
+    "static/js/787.28cb0dcd.chunk.js": "/COPACO-Presupuesto/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fa-solid-900.ttf": "/COPACO-Presupuesto/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/COPACO-Presupuesto/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/COPACO-Presupuesto/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/COPACO-Presupuesto/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/COPACO-Presupuesto/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/COPACO-Presupuesto/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/COPACO-Presupuesto/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "index.html": "/COPACO-Presupuesto/index.html",
+    "static/media/fa-v4compatibility.woff2": "/COPACO-Presupuesto/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/logo.svg": "/COPACO-Presupuesto/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.cad3d81c.css.map": "/COPACO-Presupuesto/static/css/main.cad3d81c.css.map",
+    "main.6ff7d220.js.map": "/COPACO-Presupuesto/static/js/main.6ff7d220.js.map",
+    "787.28cb0dcd.chunk.js.map": "/COPACO-Presupuesto/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cad3d81c.css",
+    "static/js/main.6ff7d220.js"
+  ]
+}
