@@ -1,43 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <title>El Camellón Más Perrón</title>
+    <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="icon" href="https://www.iecm.mx/wp-content/uploads/2019/07/favicon.ico" sizes="32x32">
+    <link rel="icon" href="https://www.iecm.mx/wp-content/uploads/2019/07/favicon.ico" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://www.iecm.mx/wp-content/uploads/2019/07/favicon.ico">
+    <meta name="msapplication-TileImage" content="https://www.iecm.mx/wp-content/uploads/2019/07/favicon.ico">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!--Main Navigation-->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button 
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- Logo -->
+              <a class="navbar-brand me-2 d-none d-lg-inline-block" href="#"><i
+                  class="fas fa-globe-europe text-primary"></i></a>
+              <li class="nav-item">
+                <a class="nav-link" href="#ideas">Propuesta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#questions">Preguntas</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <!-- Background image -->
+    <div id="intro-example" class="p-5 text-center bg-image" style="background-image: url(./Screenshot_2.png) ;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Enchúlame el camellón</h1>
+          <h4 class="mb-3">Si tú al igual que yo, usas las áreas verdes que existen en Oriente 257 entre Sur 8 y Sur 12 sabes que es momento de arreglar esta zona</h4>
+          <a class="btn btn-outline-light btn-lg" href="#tellme" role="button">Cuéntame más...</a>
+          <a class="btn btn-outline-light btn-lg" href="#ideas" role="button">Estoy de acuerdo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main>
+      <!-- Section: Cuéntame más... -->
+      <div id="tellme" class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./01-10.png" alt="Imagen del IECM" /></div>
+            <div class="col-lg-5">
+                <h1 class="font-weight-light">¿Cómo se puede arreglar?</h1>
+                <p>Por medio de tu voto en el Presupuesto Participativo. Con tu voto podríamos arreglar esta área, haciéndola  mejor para todos los que la ocupamos. No importa si la ocupas para hacer ejercicio, caminar con tu pareja, llevar a los niños a los juegos o pasear a tu mascota.</p> <br>
+                <p>Puedes votar por internet del 28 de abril al 4 de mayo. Si prefieres acudir a las urnas sería el domingo 7 de mayo en un horario de 9 de la mañana a 5 de la tarde.</p>
+                <a class="btn btn-primary" href="#!">¿Qué se haría?</a>
+            </div>
+        </div>
+        <!-- Section: Call to Action-->
+        <div class="card text-white bg-secondary my-5 py-4 text-center">
+          <div class="card-body"><p class="text-white m-0">Tu voto puede hacer la diferencia. Recuerda votar por el  proyecto <strong><u>3 "Recuperemos Nuestros Parques"</u></strong> para 2023 y el proyecto <strong><u>16 "El Camellón Más Perrón"</u></strong> para 2024</p></div>
+        </div> 
+      </div>
+      
+
+      <!-- Section: Ideas... -->
+        <section id="ideas" class="text-center mb-10">
+          <h3 class="fw-bold mb-7 text-center">¿Qué se haría?</h3>
+          <div class="row gx-lg-5">
+            <!-- Columns -->
+            <div class="col-lg-4 col-md-12 mb-7">
+              <div class="card rounded-6 h-100">
+                <div class="bg-image hover-overlay ripple mx-3 shadow-4-strong rounded-6 mt-n3" data-mdb-ripple-color="light">
+                  <img src="https://fox5sandiego.com/wp-content/uploads/sites/15/2022/07/Carlsbad-dog-park-072822-copy-e1659016132684.jpg" class="w-100">
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Creación de 3 áreas caninas</h5>
+                  <p class="text-muted">Se colocarán rejas con mayor altura, se pondrán puertas para que tu perro pueda pasear y explorar libremente. También se plantea incluir juegos y zonas para que puedan hidratarse</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-7">
+              <div class="card rounded-6 h-100">
+                <div class="bg-image hover-overlay ripple mx-3 shadow-4-strong rounded-6 mt-n3"
+                  data-mdb-ripple-color="light">
+                  <img src="https://lanoticia.com/wp-content/uploads/2018/07/comunidad-limpieza.jpg" class="w-100">
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Limpieza</h5>
+                  <p class="text-muted"> Se solicitará el paso con mayor frecuencia de los servicios de limpieza. Así como la colocación de diferentes botes. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-7">
+              <div class="card rounded-6 h-100">
+                <div class="bg-image hover-overlay ripple mx-3 shadow-4-strong rounded-6 mt-n3" data-mdb-ripple-color="light">
+                  <img src="https://media.timeout.com/images/102419449/image.jpg" class="w-100">
+                  <a href="#!"><div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div></a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Nuevas áreas de juegos</h5>
+                  <p class="text-muted">El estado actual de los juegos infantiles no es el mejor, se arreglarían algunos y otros cambiarían por juegos. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-7">
+              <div class="card rounded-6 h-100">
+                <div class="bg-image hover-overlay ripple mx-3 shadow-4-strong rounded-6 mt-n3" data-mdb-ripple-color="light">
+                  <img src="https://recreatecbb.com.mx/wp-content/uploads/2021/06/SI-gym-aire-libre-3-1024x512.jpg" class="w-100">
+                  <a href="#!"><div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div></a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Nuevas áreas de ejercicio</h5>
+                  <p class="text-muted">Se remplezarán aquellas que se encuentren en mal estado por un gimnasio urbano de mejor calidad. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-7">
+              <div class="card rounded-6 h-100">
+                <div class="bg-image hover-overlay ripple mx-3 shadow-4-strong rounded-6 mt-n3" data-mdb-ripple-color="light">
+                  <img src="https://img.travesiasdigital.com/2020/02/parques-de-la-cdmx-periferico-oriente.jpg" class="w-100">
+                  <a href="#!"><div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div></a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Cuidado de las áreas verdes</h5>
+                  <p class="text-muted">Estas áreas sufren constantemente por el clima y desgaste de uso, así que necesitan un cuidado más constante. Se remplazaría el pasto en mal estado por una opción que requiera menos cuidado. Esto con el fin de controlar el polvo y tierra en el ambiente.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-7">
+              <div class="card rounded-6 h-100">
+                <div class="bg-image hover-overlay ripple mx-3 shadow-4-strong rounded-6 mt-n3" data-mdb-ripple-color="light">
+                  <img src="https://cdn.forbes.com.mx/2019/01/camaras-c5-640x360.jpg" class="w-100">
+                  <a href="#!"><div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div></a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Instalación de cámaras de seguridad</h5>
+                  <p class="text-muted">Las cámaras se colocarían en puntos clave con el obejtivo de castigar el robo, el abandono animal y  el desecho de basura dentro de las áreas.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <!--Section: FAQ-->
+        <section id="questions" class="text-center mb-10">
+          <h3 class="text-center mb-4 pb-2 text-primary fw-bold">Preguntas</h3>
+          <p class="text-center mb-5"> ¿Tienes dudas? No te preocupes también yo; pero aquí te puedo ayudar.</p>
+            <div class="row gx-lg-5">
+              
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fa-solid fa-location-crosshairs"></i> ¿Cómo puedo votar?</h6>
+                <p>Puedes votar de manera por internet o en línea. Por <a href="https://www.iecm.mx/www/sites/apasionate/sei.html" target="_blank">internet</a> debes registrarte antes del 26 de abril, las votaciones en interntet se llevan cabo del 28 de abril al 4 de mayo. Si se te pasó la fecha puedes acudir a la casilla el domingo 7 de mayo, ubicación por anunciar.</p>
+              </div>
+
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fa-solid fa-location-crosshairs"></i> ¿Dónde tengo que vivir para votar por tu proyecto?</h6>
+                <p>En Agrícola Oriental VI. Entre Sur Rojo Gómez y Sur 20, de Oriente 253 a Canal de San Juan. Puedes ver este <a href="http://secure.iedf.org.mx/screc2010/img/colonias/images-840/06-045%20copia.jpg" target="_blank">croquis de referencia</a>.</p>
+              </div>
+
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fa-solid fa-handshake-angle"></i> ¿Te puedo apoyar con algo más?</h6>
+                <p>Te agradecería mucho si <strong>votas por mi para la COPACO</strong> , soy el candidato número <strong><u>2: Edgar Pascual Zavaleta Martínez</u></strong> . Con esto me ayudarías a poder observar que se cumpla bien con el presupuesto, te devolvería el favor haciendo una mejor zona para nosotros ya que no tengo algún interés político.
+                No importa si no vives en la misma zona mientras estes en el <a href="https://www.iecm.mx/www/scmgel/documentos/2020/PDF_CROQUIS_DTTOS/DTTO_11.pdf" target="_blank">Distrito 11</a>. </p>
+              </div>
+              
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fa-solid fa-question"></i> ¿Porqué lo haces? </h6>
+                <p> Al igual que tú, yo soy un habitante de esta zona y me parece injusto que tengamos que ir a otros parques debido al mal estado en el cual se encuentra el más cercano a nosotros. Así como no ser escuchado por las autoridades</p>
+              </div>
+
+              <div class="col-md-6 col-lg-4 mb-4">
+                <h6 class="mb-3 text-primary"><i class="fa-solid fa-phone"></i> ¿Cómo te puedo contactar?</h6>
+                <p> Lamentablemente por las reglas de la elección no. Si llegó a ganar te garantizo que en esta página subiré tanto un formato de contacto como el progreso del proyecto.</p>
+              </div>
+
+            </div>
+          </section>
+          <!--Section: FAQ-->
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer>
+
+    </footer>
+    <!--Footer-->
   </body>
 </html>
